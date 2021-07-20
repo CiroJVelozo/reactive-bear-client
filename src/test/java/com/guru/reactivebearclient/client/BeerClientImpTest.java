@@ -166,6 +166,6 @@ class BeerClientImpTest {
              .flatMap(mono -> mono)
              .subscribe(beerDto -> {
               System.out.println(beerDto.getBeerName());
-             });g
+             });
     }
 }
